@@ -1,7 +1,7 @@
 
 
 def hello_world():
- prefix_google = 
+ prefix_google = """
  <!-- Google tag (gtag.js) -->
 <script async
 src="https://www.googletagmanager.com/gtag/js?id=G-ZVTD98RRYT"></script>
@@ -11,4 +11,5 @@ src="https://www.googletagmanager.com/gtag/js?id=G-ZVTD98RRYT"></script>
  gtag('js', new Date());
  gtag('config', 'G-ZVTD98RRYT');
 </script>
+"""
  return prefix_google + "Hello World"
